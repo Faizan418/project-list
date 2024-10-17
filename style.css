@@ -1,0 +1,207 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-image: url(./Sixteen.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: center;
+    background-size: cover;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header{
+    border: 1px solid rgba(0, 0, 0, 0.192);
+    padding: 10px;
+    /* margin-bottom: 30px; */
+    text-align: center;
+    color: white;
+    backdrop-filter: blur(4px);
+    /* position: sticky;
+    top: 0.1px; */
+    box-shadow: 1px 1px 20px rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.192);
+}
+.first-head{
+    font-weight: 900;
+    font-size: 35px;
+    filter: drop-shadow(-1px -1px 3px rgb(0, 0, 0)); 
+}
+.first-pera{
+    filter: drop-shadow(-1px -1px 3px rgb(0, 0, 0)); 
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+
+}
+section{
+    padding: 20px;
+    /* border: 1px solid red; */
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.items-box{
+    margin: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.37);
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 80%;
+    backdrop-filter: blur(4px);
+    background-color: rgba(0, 0, 0, 0.37);
+    box-shadow: 1px 1px 20px rgb(0, 0, 0);
+    text-align: center;
+
+}
+.sec-head{
+    text-align: center;
+    color: wheat;
+    font-size: 30px;
+    filter: drop-shadow(-1px -1px 3px rgb(0, 0, 0)); 
+}
+ol{
+    color: wheat;
+    font-weight: 900;
+    /* font-size: larger; */
+}
+li{
+    font-size: 20px;
+}
+ol a{
+    /* color: rgb(0, 0, 0); */
+    color: blue;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    /* text-decoration: underline; */
+}
+a:hover{
+    font-weight: 900;
+    /* font-size: large; */
+    color: #ffffff;
+}
+a:active{
+    color: rgb(192, 192, 61);
+}
+footer{
+    /* height: 30vh; */
+    /* border: 1px solid rgb(255, 255, 255); */
+    /* background-color: rgb(59, 59, 59); */
+    color: white;
+    margin-top: 70px;
+    backdrop-filter: blur(4px); 
+    box-shadow: 1px 1px 20px rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.274);
+}
+.last-footer{
+    padding: 30px;
+    /* border: 1px solid rgb(206, 60, 60); */
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+
+}
+.foot-head{
+    /* margin-top: 50px; */
+    padding: 30px;
+    /* border: 1px solid rgb(255, 255, 255); */
+    text-align: center;
+    font-size: 35px;
+    padding: 10px;
+    color: white;
+}
+.div-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 30px;
+    word-wrap: wrap;
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.5s;
+}
+.icon:hover{
+    background-color: rgb(97, 97, 97);
+    filter: drop-shadow(-1px -1px 8px rgb(255, 255, 255));
+}
+.icon:active{
+    background-color: rgb(34, 34, 34);
+    filter: drop-shadow(-1px -1px 8px rgb(0, 0, 0));
+}
+.icon img{
+    width: 30px;
+    height: 30px;
+}
+.last{
+    /* border: 1px solid red; */
+    margin-top: 50px;
+}
+.last-p{
+    font-size: 17px;
+    margin-top: 100px;
+    text-align: center;
+    color: black;
+    font-weight: 900;
+}
+
+@media (max-width: 700px){
+    header{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+   .first-head{
+    font-size: 25px;
+   }
+   .first-pera{
+    font-size: 18px;
+    margin-bottom: 20px;
+    }
+   .items-box{
+    max-width: 100%;
+    width: 100%;
+    margin: 20px 0;
+   }
+   footer{
+    margin-top: 50px;
+    padding: 20px;
+   }
+   .last-footer{
+    font-size: 20px;
+    padding: 20px;
+   }
+   .foot-head{
+    font-size: 30px;
+   }
+   .div-icons{
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0px;
+   }
+   .icon{
+    margin-bottom: 10px;
+   }
+   .icon img{
+    width: 25px;
+    height: 25px;
+   }
+   .icon a{
+    font-size: 15px;
+    }
+    .icon:hover{
+    background-color: rgb(61, 60, 60);
+    }
+}
